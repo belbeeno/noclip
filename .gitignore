@@ -10,6 +10,11 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+# Specific directories to ignore due to licensing I guess?
+/Assets/External/
+/Assets/Shapes/
+/Assets/MeshEdit/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 

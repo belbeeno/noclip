@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d49c2dc7fd409734e90736ec408f0c61, type: 3}
+  m_Name: Base Sentry Define
+  m_EditorClassIdentifier: 
+  TargetMask:
+    serializedVersion: 2
+    m_Bits: 8
+  BulletPrefab: {fileID: 7222832249475625180, guid: 7c21d41e007bb2d428da8ef115c8b08e, type: 3}
+  RateOfRotation: 180
+  RateOfFire: 0.2
+  TargetingRange: 25
+  TrackingDuration: 3
+  TrackingThreshhold: 0.9
